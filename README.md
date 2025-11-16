@@ -28,6 +28,32 @@ GSK is designed with the following principles:
 
 ---
 
+## ❓ Why This Project Exists
+
+GSK was created to address real challenges in large-scale development environments, where Git usage varies significantly among teams and operational mistakes can lead to rework, broken pipelines, and inconsistencies.
+
+Before GSK, common issues included:
+
+- branching inconsistencies  
+- dangerous or repetitive manual Git operations  
+- merge conflicts caused by improper workflows  
+- lack of uniformity between Windows, WSL, and Linux users  
+- no integration between Git actions and Azure DevOps  
+- recurring human errors affecting SCM and DevOps processes  
+
+The framework was built to:
+
+- enforce a reliable and standardized Git workflow  
+- automate complex or error-prone Git routines  
+- provide safety layers through validation and structured logs  
+- unify tooling across different shells and operating systems  
+- integrate Git processes with Azure DevOps APIs  
+- support DevOps, SCM and development teams with predictable workflows  
+
+GSK has evolved continuously since 2011 and remains an essential internal tool for efficient and consistent delivery.
+
+---
+
 ## 🧩 Script Architecture
 
 Every script follows a structured design with four core methods:
