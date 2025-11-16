@@ -1,3 +1,13 @@
+<p align="center">
+  <img src="images/gsk-logo.svg" width="300">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/status-active-brightgreen">
+  <img src="https://img.shields.io/badge/shell-bash%20%2F%20zsh-blue">
+  <img src="https://img.shields.io/badge/source-private-lightgrey">
+</p>
+
 # GSK (Git Script Kit)
 
 ---

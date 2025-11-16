@@ -1,0 +1,9 @@
+<svg width="240" height="90" viewBox="0 0 240 90" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="90" fill="#0d1117"></rect>
+  <text x="20" y="55" font-family="Consolas, monospace" font-size="38" fill="#58a6ff">
+    GSK
+  </text>
+  <text x="115" y="52" font-family="Consolas, monospace" font-size="14" fill="#c9d1d9">
+    Git Script Kit
+  </text>
+</svg>
