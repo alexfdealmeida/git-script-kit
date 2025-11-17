@@ -9,7 +9,7 @@
 </p>
 
 <p align="right">
-  <img src="https://img.shields.io/badge/Made%20by-Alex%20Almeida-58a6ff?style=for-the-badge&labelColor=0d1117&logoColor=58a6ff">
+  <img src="https://img.shields.io/badge/made_by-Alex_Almeida-0d1117?style=flat&logo=terminal&logoColor=58a6ff&labelColor=21262d">
 </p>
 
 # GSK (Git Script Kit)
