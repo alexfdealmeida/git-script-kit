@@ -6,6 +6,7 @@
   <img src="https://img.shields.io/badge/status-active-brightgreen">
   <img src="https://img.shields.io/badge/shell-bash%20%2F%20zsh-blue">
   <img src="https://img.shields.io/badge/source-private-lightgrey">
+  <img src="https://img.shields.io/badge/Made%20by-Alex%20Almeida-58a6ff?style=for-the-badge&labelColor=0d1117&logoColor=58a6ff">
 </p>
 
 # GSK (Git Script Kit)
