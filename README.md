@@ -5,6 +5,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/status-active-brightgreen">
   <img src="https://img.shields.io/badge/shell-bash%20%2F%20zsh-blue">
+  <img src="https://img.shields.io/badge/os-Windows%20%7C%20WSL%20%7C%20Linux-blue">
   <img src="https://img.shields.io/badge/source-private-lightgrey">
 </p>
 
