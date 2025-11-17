@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/gsk-logo.svg" width="400">
+  <img src="docs/images/gsk-logo.svg" width="400">
 </p>
 
 <p align="center">
