@@ -15,6 +15,9 @@
 
 # GSK (Git Script Kit)
 
+> ⚠️ This is the **official repository** of the Git Script Kit project.  
+> Beware of unofficial copies or modified versions that may contain unsafe files.
+
 ---
 
 ## 📌 Overview
@@ -168,6 +171,14 @@ This repository contains **public documentation only**.
 The actual source code of the GSK is private and cannot be published due to internal processes, proprietary integrations, and corporate security policies.
 
 This README exists solely to document the project’s existence, architecture, design principles, and authorship.
+
+---
+
+## 📝 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+You are free to use, modify, and distribute this project for personal or commercial purposes, provided that the original authorship and license notice are preserved.
 
 ---
 
