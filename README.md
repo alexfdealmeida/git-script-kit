@@ -18,8 +18,6 @@
 > ⚠️ This is the **official repository** of the Git Script Kit project.  
 > Beware of unofficial copies or modified versions that may contain unsafe files.
 
----
-
 ## 📌 Overview
 
 The **GSK (Git Script Kit)** is a corporate framework for Git and DevOps automation.
@@ -34,8 +32,6 @@ GSK is designed with the following principles:
 - **Function reuse**
 - **Workflow standardization**
 - **Clear and extensible architecture**
-
----
 
 ## ❓ Why This Project Exists
 
@@ -61,8 +57,6 @@ The framework was built to:
 
 GSK has evolved continuously since 2011 and remains an essential tool for efficient and consistent delivery.
 
----
-
 ## 🔑 Key Features
 
 - Unified CLI for Git automation.
@@ -75,8 +69,6 @@ GSK has evolved continuously since 2011 and remains an essential tool for effici
 - Built-in help system with parameter validation.
 - Structured logging for troubleshooting and auditing.
 - CI/CD integration for Jenkins and Azure DevOps pipelines.
-
----
 
 ## 🧩 Script Architecture
 
@@ -95,8 +87,6 @@ The internal project structure is organized into folders based on purpose and au
     deprecated/
     scm/
     manager/
-
----
 
 ## 🚀 Key Benefits
 
@@ -129,16 +119,12 @@ Native support for **GSK Flow**, a Git workflow model inspired by Git Flow and G
 ### ✔ CI/CD process automation
 Scripts can be used in Jenkins or Azure DevOps pipelines, reducing manual work and ensuring process consistency.
 
----
-
 ## 🔧 Additional Features
 
 - Intelligent auto-complete
 - Integrated help for all commands
 - Windows context-menu integration
 - Parameter validation, standardized color scheme, and structured execution logs
-
----
 
 ## ⚠ Restrictions and Best Practices
 
@@ -155,15 +141,11 @@ For safe customization:
 - Define custom aliases  
 - Add external user-defined scripts  
 
----
-
 ## 👤 Author
 
 **Created and maintained by:**  
 **Alex Ferreira de Almeida**  
 Software Engineer / DevOps & SCM Specialist  
-
----
 
 ## 📝 Disclaimer
 
@@ -172,15 +154,11 @@ The actual source code of the GSK is private and cannot be published due to inte
 
 This README exists solely to document the project’s existence, architecture, design principles, and authorship.
 
----
-
 ## 📝 License
 
 This project is licensed under the [MIT License](LICENSE).
 
 You are free to use, modify, and distribute this project for personal or commercial purposes, provided that the original authorship and license notice are preserved.
-
----
 
 ## 📅 Project Status
 
