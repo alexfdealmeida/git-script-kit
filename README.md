@@ -143,7 +143,6 @@ For safe customization:
 
 ## 👤 Author
 
-**Created and maintained by:**  
 **Alex Ferreira de Almeida**  
 Software Engineer  
 
