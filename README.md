@@ -145,7 +145,7 @@ For safe customization:
 
 **Created and maintained by:**  
 **Alex Ferreira de Almeida**  
-Software Engineer / DevOps & SCM Specialist  
+Software Engineer  
 
 ## 📝 Disclaimer
 
