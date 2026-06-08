@@ -33,6 +33,29 @@ GSK is designed with the following principles:
 - **Workflow standardization**
 - **Clear and extensible architecture**
 
+## 📊 Scale & Impact
+
+| Metric | Value |
+|----------|----------:|
+| GSK Commands | 300+ |
+| Internal Scripts | 100+ |
+| In Active Development | 15+ years |
+| Automated CI/CD Pipelines | Jenkins · Azure DevOps |
+| Supported Platforms | Windows · WSL · Linux |
+| Supported Shells | Bash · Zsh |
+| Azure DevOps API Integration | Yes |
+| Git LFS Support | Yes |
+| Submodule Support | Yes |
+
+## ⚙️ Core Capabilities
+
+- Unified CLI for Git automation
+- Standardized branching workflow (**GSK Flow**)
+- Automation of complex Git tasks (merge, rebase, etc.)
+- Modular architecture with reusable internal functions
+- Built-in help system with parameter validation
+- Structured logging for troubleshooting and auditing
+
 ## ❓ Why This Project Exists
 
 GSK was created to address real challenges in large-scale development environments, where Git usage varies significantly among teams and operational mistakes can lead to rework, broken pipelines, and inconsistencies.
@@ -55,20 +78,7 @@ The framework was built to:
 - Integrate Git processes with Azure DevOps APIs.
 - Support DevOps, SCM and development teams with predictable workflows.
 
-GSK has evolved continuously since 2011 and remains an essential tool for efficient and consistent delivery.
-
-## 🔑 Key Features
-
-- Unified CLI for Git automation.
-- Standardized branching workflow (**GSK Flow**).
-- Automation of complex Git tasks (merge, rebase, LFS, submodules).
-- Azure DevOps REST API integration.
-- Cross-shell compatibility (**Bash** and **Zsh**).
-- Multi-platform support (**Windows**, **WSL** and **Linux**).
-- Modular architecture with reusable internal functions.
-- Built-in help system with parameter validation.
-- Structured logging for troubleshooting and auditing.
-- CI/CD integration for Jenkins and Azure DevOps pipelines.
+> GSK has evolved continuously since 2011 and remains an essential tool for efficient and consistent delivery.
 
 ## 🧩 Script Architecture
 
