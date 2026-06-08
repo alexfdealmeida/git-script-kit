@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/images/gsk-logo.svg" width="400">
+  <img src="docs/assets/gsk-logo.svg" width="400">
 </p>
 
 <p align="center">
@@ -50,7 +50,7 @@ GSK is designed with the following principles:
 ## ⚙️ Core Capabilities
 
 - Unified CLI for Git automation
-- Standardized branching workflow (**GSK Flow**)
+- Standardized branching workflow ([GSK Flow](docs/assets/gsk-flow.png))
 - Automation of complex Git tasks (merge, rebase, etc.)
 - Modular architecture with reusable internal functions
 - Built-in help system with parameter validation
