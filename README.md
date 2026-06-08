@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/assets/gsk-logo.png" width="250">
+  <img src="docs/assets/gsk-logo.png" width="300">
 </p>
 
 <p align="center">
@@ -13,7 +13,7 @@
   <img src="https://img.shields.io/badge/made_by-Alex_Almeida-0d1117?style=flat&logo=terminal&logoColor=58a6ff&labelColor=21262d">
 </p>
 
-# GSK (Git Script Kit)
+# GSK - Git Script Kit
 
 > ⚠️ This is the **official repository** of the Git Script Kit project.  
 > Beware of unofficial copies or modified versions that may contain unsafe files.
