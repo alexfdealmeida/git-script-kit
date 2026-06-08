@@ -60,33 +60,33 @@ The internal project structure is organized into purpose-specific modules coveri
 
 ## 🚀 Key Benefits
 
-### ✔ Simplified Git usage
+### Simplified Git usage
 Provides intuitive commands with syntax similar to native Git operations.
 
-### ✔ Error prevention
+### Error prevention
 Validation layers, structured logs, informative messages, and automated handling reduce operational mistakes.
 
-### ✔ Reuse and maintainability
+### Reuse and maintainability
 Each script follows SRP, avoiding duplicated logic and enabling cleaner evolution.
 
-### ✔ Corporate integrations
+### Corporate integrations
 Includes native integration with the **Azure DevOps REST API**, enabling tasks such as:
 - branch management
 - work item interactions
 - group and permission queries
 - automated pipeline routines
 
-### ✔ Cross-platform compatibility
+### Cross-platform compatibility
 Works consistently across:
 - **Bash** and **Zsh**
 - **Windows**
 - **WSL**
 - **Linux**
 
-### ✔ Standardized workflow
+### Standardized workflow
 Native support for [GSK Flow](docs/assets/gsk-flow.png), a Git workflow model inspired by Git Flow and GitLab Flow, developed exclusively for the framework.
 
-### ✔ CI/CD process automation
+### CI/CD process automation
 Scripts can be used in Jenkins or Azure DevOps pipelines, reducing manual work and ensuring process consistency.
 
 ## 🔧 Additional Features
