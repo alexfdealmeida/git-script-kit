@@ -49,9 +49,9 @@ Before GSK, common issues included:
 
 ## 🔑 Additional Features
 
-- **Auto-complete** (`gsk <tab><tab>` or `gsk <command> <tab><tab>`)  
-- **Alias creation** (`gsk alias_add --help`)  
-- **Windows context-menu integration** (`commit`, `diff`, `log`, `pull`, `stash` and `stash_apply`)  
+- Auto-complete (`gsk <tab><tab>` or `gsk <command> <tab><tab>`)  
+- Alias creation (`gsk alias_add --help`)  
+- Windows context-menu integration (`commit`, `diff`, `log`, `pull`, `stash` and `stash_apply`)  
 
 ## ⚠ Important
 
