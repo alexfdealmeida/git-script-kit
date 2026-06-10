@@ -22,7 +22,7 @@
 
 The GSK (Git Script Kit) is a Shell Script framework for Git, Software Configuration Management (SCM), and DevOps, designed to automate processes, simplify operations, and strengthen software development lifecycle governance.
 
-It provides a unified CLI that standardizes branching workflows through GSK Flow, encapsulates complex Git operations (such as merge, rebase, and cherry-pick), supports advanced features (Git LFS and submodules), integrates natively with the Azure DevOps API, and enables CI/CD pipeline automation in Jenkins and Azure DevOps.
+It provides a unified CLI that standardizes branching workflows through [GSK Flow](docs/assets/gsk-flow.png), encapsulates complex Git operations (such as merge, rebase, and cherry-pick), supports advanced features (Git LFS and submodules), integrates natively with the Azure DevOps API, and enables CI/CD pipeline automation in Jenkins and Azure DevOps.
 
 It is built on a modular architecture based on the Single Responsibility Principle (SRP), featuring reusable internal scripts that reduce code duplication and simplify maintenance. Each command includes parameter validation, a structured help system, and execution logging designed for auditing and troubleshooting. It is compatible with Windows, WSL, and Linux, with full support for Bash and Zsh.
 
@@ -46,37 +46,6 @@ Before GSK, common issues included:
 - Recurring human errors affecting SCM and DevOps processes.
 
 > GSK has evolved continuously since 2011 and remains an essential tool for efficient and consistent delivery.
-
-## 🚀 Key Benefits
-
-### Simplified Git usage
-Provides intuitive commands with syntax similar to native Git operations.
-
-### Error prevention
-Validation layers, structured logs, informative messages, and automated handling reduce operational mistakes.
-
-### Reuse and maintainability
-Each script follows SRP, avoiding duplicated logic and enabling cleaner evolution.
-
-### Corporate integrations
-Includes native integration with the **Azure DevOps REST API**, enabling tasks such as:
-- branch management
-- work item interactions
-- group and permission queries
-- automated pipeline routines
-
-### Cross-platform compatibility
-Works consistently across:
-- **Bash** and **Zsh**
-- **Windows**
-- **WSL**
-- **Linux**
-
-### Standardized workflow
-Native support for [GSK Flow](docs/assets/gsk-flow.png), a Git workflow model inspired by Git Flow and GitLab Flow, developed exclusively for the framework.
-
-### CI/CD process automation
-Scripts can be used in Jenkins or Azure DevOps pipelines, reducing manual work and ensuring process consistency.
 
 ## 🔑 Additional Features
 
