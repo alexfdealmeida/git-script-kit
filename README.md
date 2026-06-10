@@ -20,11 +20,11 @@
 
 ## 📌 Overview
 
-The **GSK (Git Script Kit)** is a production-grade Shell Script framework for Git and DevOps automation, built for large-scale software engineering environments.
+The GSK (Git Script Kit) is a Shell Script framework for Git, Software Configuration Management (SCM), and DevOps, developed to automate processes, simplify operations, and strengthen the governance of the software development lifecycle.
 
-GSK delivers a unified CLI that standardizes branching workflows through **GSK Flow**, automates complex Git operations (merge, rebase, cherry-pick, and more), and integrates natively with the **Azure DevOps REST API**, enabling automated CI/CD pipelines on **Jenkins** and **Azure DevOps**. It also provides dedicated support for **Git LFS** and **submodules**. Every command includes built-in parameter validation, a structured help system, and execution logging designed for auditing and troubleshooting.
+It provides a unified CLI that standardizes branching workflows through GSK Flow, encapsulates complex Git operations (such as merge, rebase, and cherry-pick), supports advanced features (Git LFS and submodules), integrates natively with the Azure DevOps API, and enables the automation of CI/CD pipelines in Jenkins and Azure DevOps.
 
-The framework is built on a modular, SRP-driven architecture with reusable internal scripts, eliminating duplicated logic, reducing operational errors, and enabling consistent delivery across **Windows**, **WSL**, and **Linux** with full support for **Bash** and **Zsh**.
+It is built on a modular architecture oriented by the Single Responsibility Principle (SRP), featuring reusable internal scripts that reduce code duplication and simplify maintenance. Each command includes parameter validation, a structured help system, and execution logging geared toward auditing and troubleshooting. It is compatible with Windows, WSL, and Linux, with full support for Bash and Zsh.
 
 ## 📊 By the Numbers
 
