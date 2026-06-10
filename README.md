@@ -47,17 +47,6 @@ Before GSK, common issues included:
 
 > GSK has evolved continuously since 2011 and remains an essential tool for efficient and consistent delivery.
 
-## 🧩 Script Architecture
-
-Every script follows a structured design with four core methods:
-
-- `gskConstants` - Loads configurations and internal variables.
-- `gskHelp` - Displays documentation, parameters, and usage examples.
-- `gskValidate` - Performs input validation and pre-condition checks.
-- `gskExec` - Contains the main execution logic.
-
-The internal project structure is organized into purpose-specific modules covering development utilities, reusable functions, system operations, SCM workflows, and management tools.
-
 ## 🚀 Key Benefits
 
 ### Simplified Git usage
