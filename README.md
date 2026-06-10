@@ -78,26 +78,15 @@ Native support for [GSK Flow](docs/assets/gsk-flow.png), a Git workflow model in
 ### CI/CD process automation
 Scripts can be used in Jenkins or Azure DevOps pipelines, reducing manual work and ensuring process consistency.
 
-## 🔧 Additional Features
+## 🔑 Additional Features
 
-- Intelligent auto-complete
-- Windows context-menu integration
-- Standardized color scheme across all commands
+- **Auto-complete** (`gsk <tab><tab>` or `gsk <command> <tab><tab>`)  
+- **Alias creation** (`gsk alias_add --help`)  
+- **Windows context-menu integration** (`commit`, `diff`, `log`, `pull`, `stash` and `stash_apply`)  
 
-## ⚠ Restrictions and Best Practices
+## ⚠ Important
 
-To ensure integrity and compatibility across versions:
-
-- **Do NOT move scripts between directories**
-- **Do NOT edit scripts directly**
-- **Do NOT rename internal scripts**
-
-> 🔶 _Any manual modification will be automatically discarded during the update process_.
-
-For safe customization:
-
-- Define custom aliases  
-- Add external user-defined scripts  
+> To ensure compatibility with updates, custom scripts must be created exclusively in the `personal/` directory. Manual modifications to native GSK scripts are not supported and will be automatically discarded during the update process.
 
 ## 👤 Author
 
