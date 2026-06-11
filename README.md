@@ -53,9 +53,24 @@ Before GSK, common issues included:
 - Alias creation (`gsk alias_add --help`)  
 - Windows context-menu integration (`commit`, `diff`, `log`, `pull`, `stash` and `stash_apply`)  
 
-## ⚠ Important
+## 📁 Project Structure
 
-> To ensure compatibility with updates, custom scripts must be created exclusively in the `personal/` directory. Manual modifications to native GSK scripts are not supported and will be automatically discarded during the update process.
+```
+gsk/
+├── dev/          # Git wrappers and commands executed directly by users
+├── system/       # Scripts, functions and constants used across all other scripts
+├── functions/    # functions/ # Internal reusable functions
+├── manager/      # GSK management scripts
+├── scm/          # Scripts executed directly by SCM users
+├── personal/     # Custom scripts (not overwritten on updates)
+├── drafts/       # Scripts under testing or validation, not ready for production
+├── deprecated/   # Legacy scripts kept for compatibility
+└── .context/     # AI agent context
+```
+
+> `manager/` and `scm/` are accessible only by the `[scm]` profile.
+
+> ⚠ To ensure update compatibility, custom scripts must be created exclusively in the `personal/` folder. Manual changes to native GSK scripts are not supported and will be automatically discarded during the update process.
 
 ## 👤 Author
 

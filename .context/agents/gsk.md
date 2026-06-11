@@ -30,15 +30,19 @@ Antes do GSK, os problemas mais comuns incluíam:
 ## Estrutura de diretórios
 
 ```
-siagrigsk/
-├── dev/          # Scripts prontos para uso ([dev] e [scm])
-├── system/       # Constantes e funções/scripts sistêmicos
+gsk/
+├── dev/          # Wrappers Git e comandos executados diretamente pelos usuários
+├── system/       # Scripts, funções e constantes utilizados sistematicamente pelos demais scripts
 ├── functions/    # Funções reutilizáveis internas
-├── manager/      # Scripts de gerenciamento (apenas [scm])
-├── scm/          # Scripts para usuários SCM (apenas [scm])
-├── deprecated/   # Scripts em desuso
+├── manager/      # Scripts de gerenciamento do GSK
+├── scm/          # Scripts executados diretamente pelos usuários SCM
+├── personal/     # Scripts personalizados (não sobrescritos em atualizações)
+├── drafts/       # Scripts em fase de testes ou validação, não prontos para produção
+├── deprecated/   # Scripts legados mantidos para compatibilidade
 └── .context/     # Contexto para agentes de IA
 ```
+
+> `manager/` e `scm/` são acessíveis apenas pelo perfil `[scm]`.
 
 ## Convenções de commit
 
