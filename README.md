@@ -52,6 +52,7 @@ Before GSK, common issues included:
 - Auto-complete (`gsk <tab><tab>` or `gsk <command> <tab><tab>`)  
 - Alias creation (`gsk alias_add --help`)  
 - Windows context-menu integration (`commit`, `diff`, `log`, `pull`, `stash` and `stash_apply`)  
+- TortoiseGit integration (`blame`, `commit`, `diff`, `log`, and `resolve`)
 
 ## 📁 Project Structure
 
