@@ -1,1 +1,1 @@
-@.context/agents/gsk.md
+@AGENTS.md

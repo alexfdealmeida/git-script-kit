@@ -2,7 +2,7 @@
 
 ## Context flags (GSK_CONTEXT_*)
 
-Usadas para otimizar validações, evitando buscas repetidas ao Git/Azure.
+Usadas para otimizar validações, evitando chamadas desnecessárias ao Git/Azure.
 Sempre passadas via `eval` para garantir re-interpretação correta:
 
 ```bash
@@ -103,17 +103,23 @@ merge-conflicts-temp.txt
 
 Lê de `.git/rebase-merge/`: `msgnum` (atual), `end` (total), `head-name` (branch).
 
-## Convenção de mensagem de commit de merge
+## Convenção de mensagem dos commits
 
 ```
-Branch: <nomeBranch>; Merge branch '<origin/branch>' into '<currentBranch>' --no-verify-policies-hook
+Branch: <nomeBranchCorrente>; #<taskId> - <descrição em português>
+```
+
+Exemplos:
+```
+Branch: feature-20978; #20978 - gsk_rebase: Corrigido exitCode do método "abortRebase".
+Branch: feature-21040; #21040 - load_gsk_constants_system.sh: Adicionadas constantes X e Y.
+```
+
+### Commit de merge
+
+```
+Branch: <nomeBranchCorrente>; Merge branch '<origin/branch>' into '<currentBranch>' --no-verify-policies-hook
 
 Merged files: <quantidade>
 <lista de arquivos modificados>
 ```
-
-## Restrições do GSK Flow
-
-- Branch `release`: não permite rebase
-- Branch `permanent`: não permite rebase (exceto com `--allow-permanent-branch`)
-- Push force: sempre precedido de backup local do branch no repositório auxiliar (.gsk-aux)

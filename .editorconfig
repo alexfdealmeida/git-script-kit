@@ -1,0 +1,17 @@
+# EditorConfig: https://editorconfig.org
+root = true
+
+# Scripts Shell (sem extensão nas pastas GSK, .sh, .bash)
+[{deprecated/**,dev/**,drafts/**,functions/**,manager/**,personal/**,scm/**,system/**}]
+indent_style = tab
+indent_size = 4
+
+[*.{sh,bash}]
+indent_style = tab
+indent_size = 4
+
+# Markdown
+[*.md]
+indent_style = tab
+indent_size = 4
+trim_trailing_whitespace = false
