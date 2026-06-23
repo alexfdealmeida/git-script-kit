@@ -18,8 +18,12 @@ simplificam a manutenção. Cada comando inclui validação de parâmetros, sist
 ## Docs disponíveis
 
 - Use `.agents/docs/conventions.md` para documentação sobre context flags, constantes globais e convenções de mensagens dos commits
+- Use `.agents/docs/git-update-history.md` para documentação sobre o histórico de atualizações do Git
 - Use `.agents/docs/gsk-flow.md` para documentação sobre fluxo de branches do GSK Flow: permanentes, temporários e regras de merge/rebase
+- Use `.agents/docs/semver.md` para documentação sobre o versionamento semântico das versões do GSK
 - Use `.agents/docs/structure.md` para documentação sobre estrutura dos diretórios e scripts
+- Use `.agents/docs/update-git.md` para documentação sobre o processo de atualização do Git
+- Use `.agents/docs/update-tortoise-git.md` para documentação sobre o processo de atualização do TortoiseGit
 
 ## Skills disponíveis
 
