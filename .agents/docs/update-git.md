@@ -3,8 +3,9 @@
 ## 1. Atualizar instalador do Git (remover antigo e adicionar novo)
 `siagrigsk-setup/setup/installer`
 
-## 2. Atualizar versão no script de instalação do Git
+## 2. Atualizar versão nos scripts de instalação do Git
 `siagrigsk-setup/setup/Git.ps1`
+`siagrigsk-setup/setup/installer/git-install.cmd`
 
 ## 3. Instalar a nova versão do Git
 `siagrigsk-setup/setup/installer/git-install.cmd`

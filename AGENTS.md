@@ -24,6 +24,7 @@ simplificam a manutenção. Cada comando inclui validação de parâmetros, sist
 - Use `.agents/docs/structure.md` para documentação sobre estrutura dos diretórios e scripts
 - Use `.agents/docs/update-git.md` para documentação sobre o processo de atualização do Git
 - Use `.agents/docs/update-tortoise-git.md` para documentação sobre o processo de atualização do TortoiseGit
+- Use `.agents/docs/update-winmerge.md` para documentação sobre o processo de atualização do WinMerge
 
 ## Skills disponíveis
 
